@@ -3,6 +3,7 @@ function UCOpt3D(lx,ly,lz,nelx,nely,nelz,nlx,nly,nlz,volfrac,penal,rmin,p1,p2)
 maxloop = 200;    % Maximum number of iterations
 tolx = 0.01;      % Termination criterion
 displayflag = 0;  % Display structure flag
+ft = 1;
 % USER-DEFINED MATERIAL PROPERTIES
 E0 = 1;           % Young's modulus of solid material
 Emin = 1e-9;      % Young's modulus of void-like material
